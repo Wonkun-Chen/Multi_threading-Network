@@ -16,10 +16,8 @@ Dataset:
 The BraTS 2018 dataset can be downloaded from https://ipp.cbica.upenn.edu/, please register first.
 
 Preprocessing data
-"python pre.py", the dataset shoule be placed at /root/data/train.
+"python pre.py", the dataset shoule be placed at /root/data/.
  
-For model training: 
-"python train.py"
 
 Sebment the tumor(for test/val): 
 "python segment.py"
