@@ -10,7 +10,7 @@ Python 3.6.0+
 Torch 0.4.0+
 
 Sofware to Visualize: 
-ITK-Snap(available at http://www.itksnap.org/pmwiki/pmwiki.php).
+ITK-Snap (available at http://www.itksnap.org/pmwiki/pmwiki.php).
 
 Dataset: 
 The BraTS 2018 dataset can be downloaded from https://ipp.cbica.upenn.edu/, please register first.
@@ -19,11 +19,11 @@ Preprocessing data
 "python pre.py", the dataset shoule be placed at /root/data/.
  
 
-Sebment the tumor(for test/val): 
+How to segment the tumor(for test/val): 
 "python segment.py"
 ![tumor](https://user-images.githubusercontent.com/63543796/163986166-72439f92-a208-490b-b6b3-2055b40c1d5f.jpg)
 (A) Flair, T1, T1ce and T2, (B) Ground Truth, (C) Baseline and (D) MTDC-Net.
 
-Vaildation: 
+How to vaildation: 
 Upload the segment file to https://ipp.cbica.upenn.edu/#BraTS18eval_validationPhase, please register first.
 
