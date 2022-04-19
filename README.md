@@ -1,6 +1,6 @@
 # Multi_threading-Network
-Python code for MTDCNet: A 3D multi-threading dilated convolutional network for brain tumor automatic segmentation
-There is a low parameter 3D Network in Torch for the purpose of tumor segmentation.
+Python code for "MTDCNet: A 3D multi-threading dilated convolutional network for brain tumor automatic segmentation", 
+There is a low parameter 3D Network for the purpose of tumor segmentation  based on torch.
 
 ![net](https://user-images.githubusercontent.com/63543796/163979942-f94b2690-3715-4d08-bfaa-436f96bbd899.jpg)
 Here is the main structure of MTDC-Net.
